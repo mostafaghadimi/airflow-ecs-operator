@@ -1,0 +1,31 @@
+# Ignore Airflow logs
+logs/
+
+# Ignore Airflow database
+airflow.db
+
+# Ignore Airflow configuration file
+airflow.cfg
+
+# Ignore Airflow plugins
+plugins/
+
+# Ignore Airflow virtual environment
+venv/
+
+# Ignore any other generated files or directories
+*.pyc
+__pycache__/
+
+# Ignore Airflow configuration
+config/
+
+# Ignore Pipenv virtual environment
+/.venv
+
+# Ignore Pipenv lock file
+Pipfile.lock
+
+# MacOS
+.DS_Store
+
